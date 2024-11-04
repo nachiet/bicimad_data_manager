@@ -1,0 +1,9 @@
+pyproject.toml
+bicimad/__init__.py
+bicimad/bicimad.py
+bicimad.egg-info/PKG-INFO
+bicimad.egg-info/SOURCES.txt
+bicimad.egg-info/dependency_links.txt
+bicimad.egg-info/requires.txt
+bicimad.egg-info/top_level.txt
+tests/test_bicimad.py

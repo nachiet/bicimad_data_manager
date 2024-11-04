@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=66.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bicimad"
+version = "1.0.0"
+requires-python = ">=3.12"
+authors = [
+	{name = 'Ignacio García', email = 'ignacg12@ucm.es'},
+]
+
+dependencies = [ "requests ~= 2.3", "pandas ~= 2.1" ]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", ".venv*", "dist*"]
