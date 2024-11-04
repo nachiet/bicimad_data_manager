@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: bicimad
-Version: 1.0.0
-Author-email: Ignacio García <ignacg12@ucm.es>
-Requires-Python: >=3.12
-Requires-Dist: requests~=2.3
-Requires-Dist: pandas~=2.1
