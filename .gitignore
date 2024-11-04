@@ -1,0 +1,4 @@
+/.venv/
+/bicimad.egg-info/
+/dist/
+/.coverage
