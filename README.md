@@ -1,7 +1,9 @@
 # BiciMad Project README
 
 ## Introduction
-The BiciMad project focuses on analyzing the usage data of Madrid's electric bicycle service, BiciMAD, utilizing publicly available data from the EMT (Madrid Transport Authority). The data includes information on bike trips, such as trip durations, start and end locations, and more, collected from April 2019 to February 2023. The primary dataset of interest spans from June 2021 to February 2023, providing insights into urban mobility trends in Madrid. A Python module has been constructed to manage the BiciMad information efficiently. This module creates pandas DataFrames, which allows for easier manipulation and analysis of the dataset. By utilizing DataFrames, users can quickly perform operations such as filtering, grouping, and aggregating data, significantly enhancing the efficiency of data handling.
+The BiciMad project focuses on analyzing the usage data of Madrid's electric bicycle service, BiciMAD, utilizing publicly available data from the EMT (Madrid Transport Authority). The data includes information on bike trips, such as trip durations, start and end locations, and more, collected from April 2019 to February 2023. However, the dataset format is standardized for use with the module only from June 2021 to February 2023.
+
+A Python module has been developed to manage the BiciMad data efficiently. Based on the `Urlemt` and `BiciMad` classes, this module downloads data from the official web sources and creates pandas DataFrames, making it easier to manipulate and analyze the dataset. By leveraging DataFrames, users can quickly perform operations such as filtering, grouping, and aggregating data, significantly enhancing data handling efficiency. Additionally, several methods have been implemented to perform specific data operations quickly.
 
 ## Data Source
 The datasets are available on the EMT's open data portal:
